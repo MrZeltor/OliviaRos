@@ -1,0 +1,47 @@
+* {
+    padding: 0;   /* margen interior de una caja*/
+    margin: 0; /* margen exterior de una caja*/
+    border: 0; /* borde de una caja */
+    box-sizing: border-box; /* tamaño general de la caja */
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bg-body-tertiary{
+    color: #373A3C;
+}
+
+.heroSection{
+    width: 100%;
+    height: 630px;
+    background-image: url("../img/bg-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10rem;
+}
+
+.heroSection p{
+    padding-left: 30%;
+}
+
+.acercaDeMi{
+    padding: 3 rem 0;
+}
+
+.acercaDeMi >p{
+    width: 60%;
+    margin: 0 auto;
+}
+
+article i{
+    font-size: 3.5rem;
+}
+
+.container-trabajo{
+    background-color: #17A2B8;
+}
+
+.card-img-top{
+    height: 14rem;
+}
